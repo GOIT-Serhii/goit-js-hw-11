@@ -105,21 +105,10 @@ function onFetchError() {
 
 }
 
-
-// function showLoader() {
-//     loader.style.display = 'block';
-// }
-
-// function hideLoader() {
-//     loader.style.display = 'none';
-// }
-
 function showLoader() {
-    console.log("Showing loader");
     loader.style.display = 'block';
 }
 
 function hideLoader() {
-    console.log("Hiding loader");
     loader.style.display = 'none';
 }
