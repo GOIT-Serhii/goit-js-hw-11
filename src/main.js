@@ -31,7 +31,7 @@ function getPictures(query) {
 
 const formSearch = document.querySelector('.form-search');
 const cardContainer = document.querySelector('.card-container');
-const loader = document.querySelector('.loader-container')
+const loader = document.querySelector('.loader')
 
 formSearch.addEventListener('submit', handlerSearch)
 
@@ -106,7 +106,7 @@ function onFetchError() {
 }
 
 function showLoader() {
-    loader.style.display = 'block';
+    loader.style.display = 'flex';
 }
 
 function hideLoader() {
