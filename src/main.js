@@ -31,7 +31,7 @@ function getPictures(query) {
 
 const formSearch = document.querySelector('.form-search');
 const cardContainer = document.querySelector('.card-container');
-const loader = document.querySelector('.loader')
+const loader = document.querySelector('.loader-container')
 
 formSearch.addEventListener('submit', handlerSearch)
 
